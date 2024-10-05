@@ -1,7 +1,6 @@
 const express = require('express');
 const winston = require('winston');
 
-// Create a Winston logger
 const logger = winston.createLogger({
     level: 'info', // Logging level
     format: winston.format.simple(), // Log format
